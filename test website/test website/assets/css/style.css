@@ -1,0 +1,101 @@
+.T {
+	font-family: 'opensans-bold';
+	font-size: 14px;
+	color: #0064fe;
+}
+.T1 {
+	font-size: 25px;
+	color: #ff2610;
+	text-transform: uppercase;
+	font-family: 'opensans-bold';
+}
+.T2 {
+    font-weight:0 ;
+	font-size: 30px;
+}
+.T3 {
+	font-family: Impact;
+	font-size:10px;
+	color: #690ade;
+}
+.T4 {
+	font-family: Elephant;
+	font-size: 20px;
+	color: #fae10b;
+	font-weight:20 ;
+	text-transform:100% ;
+}
+.T5 {
+	font-family: Calibri;
+	font-size: 18px;
+	color: #12ff00;
+	font-weight:20 ;
+}
+
+{box-sizing: border-box}
+input[type=text], input[type=password] {
+  width: 80%;
+  padding: 1px;
+  margin: 5px 0 22px 0;
+  display: inline-block;
+  border: none;
+  background: #f1f1f1;
+}
+
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+
+.registerbtn {
+  background-color: #7c7d7e;
+  color: white;
+  padding: 3px 5px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 20%;
+  opacity: 0.9;
+}
+
+.registerbtn:hover {
+  opacity:1;
+}
+
+a {
+  color: dodgerblue;
+}
+
+.signin {
+  background-color: #f1f1f1;
+  text-align: center;
+}
+.td {
+	border: 1px solid yellow;
+}
+.T8 {
+	color: #fff;
+}
+#form-main {
+  width: 90%;
+  margin: 0 auto;
+  vertical-align: top;
+}
+#form1 {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+#form2 {
+  width: 45%;
+  display: inline-block;
+  vertical-align: top;
+}
+.T999 {
+	color: #7c7d7e
+}
