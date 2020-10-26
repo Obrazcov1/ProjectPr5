@@ -5,6 +5,8 @@
    <title>3 Column Layout</title>
    <link rel="stylesheet" href="assets/css/layout.css">
    <link rel="stylesheet" href="assets/css/style.css">
+   <link rel="stylesheet" href="assets/css/slide.css">
+
 </head>
 <body>
 
@@ -19,6 +21,11 @@
    <main class="center column">
        <article>
            <h1>Slider</h1>
+		    
+		   <div id="mySlider">
+			</div>
+			<button id="sliderPrev" onclick="prevSlide()">Prev</button>
+			<button id="sliderNext" onclick="nextSlide()">Next</button>
            <p></p>
        </article>
    </main>
@@ -42,6 +49,8 @@
    </div>
 </div>
 
+
+
 <div class="footer-wrapper">
    <footer class="footer">
    <p>
@@ -52,5 +61,7 @@
    </p>
    </footer>
 </div>
+	   <script src="assets/js/Script.js"></script>
 </body>
+
 </html>
