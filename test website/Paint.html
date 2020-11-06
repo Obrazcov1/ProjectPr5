@@ -5,8 +5,6 @@
    <title>3 Column Layout</title>
    <link rel="stylesheet" href="assets/css/layout.css">
    <link rel="stylesheet" href="assets/css/style.css">
-   <link rel="stylesheet" href="assets/css/slide.css">
-
 </head>
 <body>
 
@@ -20,19 +18,24 @@
 <div class="container">
    <main class="center column">
        <article>
-           <h1>Slider</h1>
-		    
-		   <div id="mySlider">
-			</div>
-			<button id="sliderPrev" onclick="prevSlide()">Prev</button>
-			<button id="sliderNext" onclick="nextSlide()">Next</button>
+           <h1>Paint</h1>
+		   
+		   <canvas id="draw" width="490" height="220">
+		   </canvas>
+			<button onclick="Clear()">Clear</button>
+			</br>
+			<h4>Width</h4>
+			<input id="Polz" type="range" min="0" max="15" step="1" value="7"> 
+			</br>
+			<h4>Color</h4>
+			<input id="Color" type="range" min="0" max="5" step="1" value="3"> 
            <p></p>
        </article>
    </main>
    <nav class="left column">
        <h3>Left heading</h3>
        <ul>
-	   <li><a href="index.html">Index</a></li>
+	   		<li><a href="index.html">Index</a></li>
            <li><a href="about.html">About</a></li>
            <li><a href="contact.html">Contact</a></li>
        </ul>
@@ -50,8 +53,6 @@
    </div>
 </div>
 
-
-
 <div class="footer-wrapper">
    <footer class="footer">
    <p>
@@ -62,7 +63,6 @@
    </p>
    </footer>
 </div>
-	   <script src="assets/js/Script.js"></script>
+<script src="assets/js/Paint.js"></script>
 </body>
-
 </html>
